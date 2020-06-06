@@ -1,0 +1,180 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 2%;
+  float: left;
+  text-shadow: 1px 1px #ff0000;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 2% 8% 3% 8%;
+}
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+/* Title-section */
+#title {
+  background-image: linear-gradient(#035aa6, #6886c5);
+  color: #faf2f2;
+  text-align: left;
+}
+
+/* button */
+.download-button {
+  margin: 15% 3% 5% 0;
+}
+
+.mlearn {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  border-radius: 15%;
+  position: relative;
+  top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.iphone {
+  width: 70%;
+  height: auto;
+  opacity: 0.9;
+  position: absolute;
+  right: 10%;
+}
+
+/* Features */
+#features {
+  background-image: linear-gradient(#6886c5, #fff);
+  padding: 8% 2% 5% 2%;
+  position: relative;
+}
+
+.features {
+  padding: 2% 8%;
+  color: #27496d;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #120136;
+  padding-bottom: 1rem;
+}
+
+.far {
+  color: #142850;
+  padding: 6% 7%;
+}
+
+.fas {
+  color: #142850;
+  padding: 6% 7%;
+}
+
+.icon:hover {
+  color: #d4f3ef;
+}
+
+/* Testimonials */
+#testimonials {
+  background-image: linear-gradient(#fff, #0779e4);
+  color: #120136;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  background-image: linear-gradient(#0779e4, #fff);
+  padding: 7% 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 50px 50px;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  background-image: linear-gradient(#fff, #dae1e7);
+}
+
+.card-header {
+  padding-top: 2.5rem;
+}
+
+.card-body {
+  height: 16rem;
+}
+
+.card-footer {
+  background: transparent;
+  border-top: 0px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+  background-image: linear-gradient(#dae1e7, #0779e4);
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+}
+
+/* footer */
+#footer {
+  background-image: linear-gradient(#0779e4, #035aa6);
+  padding: 4% 8%;
+  font-weight: bold;
+}
+
+.icon-social {
+  margin: 20px 20px;
+}
+
+/* media-query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+  }
+}
